@@ -1,4 +1,3 @@
-
 class Grid {
   constructor(dimX, dimY) {
     this.array = [];
