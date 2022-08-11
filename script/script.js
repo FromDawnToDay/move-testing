@@ -1,4 +1,3 @@
-
 let board = new Grid(10, 10)
 console.log(board)
 let DIM = {
@@ -11,7 +10,7 @@ let dim = {
 }
 let Player = new Cell(1, 1, board);
 console.log(board)
-document.addEventListener("keydown", function (event) {
+document.addEventListener("keyup", function (event) {
   if (event.key == "ArrowUp") {
     Player.up();
   }
